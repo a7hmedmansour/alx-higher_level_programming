@@ -2,4 +2,4 @@
 str = "Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax"
 print(str[str.find("object"):str.find("language")], end="")
-print(f"with {str[:6]}", end="\n")
+print(f"{str[str.find('with'):str.find('very')]}{str[:6]}", end="\n")
